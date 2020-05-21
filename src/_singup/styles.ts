@@ -28,7 +28,7 @@ export const Container = styled.div`
       margin: 0 0 10px;
 
       &::placeholder {
-        color: #a8a8b3;
+        color: #fff;
       }
     }
 
@@ -44,8 +44,8 @@ export const Container = styled.div`
       height: 44px;
       background: #3b9eff;
       font-weight: bold;
-      color: #fff;
       border: 0;
+      color: #fff;
       border-radius: 4px;
       font-size: 16px;
       transition: background 0.2s;
@@ -55,8 +55,13 @@ export const Container = styled.div`
       }
     }
 
+    p {
+          color: #a8a8b3;
+        }
+
+
     a {
-      color: #a8a8b3;
+      color: #fff;
       margin-top: 15px;
       font-size: 16px;
       opacity: 0.8;
@@ -65,6 +70,11 @@ export const Container = styled.div`
 
       &:hover {
         opacity: 1;
+
+        p {
+          color: #a8a8b3;
+        }
+
       }
     }
   }

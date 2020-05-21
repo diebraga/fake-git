@@ -27,7 +27,7 @@ export const Form = styled.form<FormProps>`
     padding: 0 24px;
     border: 0;
     border-radius: 5px;
-    color: #3a3a3a;
+    color: #fff;
 
     border: 2px solid #fff;
 
