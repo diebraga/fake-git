@@ -1,23 +1,28 @@
 import React from 'react';
-import { useRouteMatch, Link } from 'react-router-dom';
-import { FiChevronLeft } from 'react-icons/fi';
-import { Header, RepoInfo, Issues } from './styles';
+import { AiOutlineGithub } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+
+import { Wrap, Container } from './styles';
 
 
 export const SignIn: React.FC = () => {
   return (
-  <>
-  <Header>
+    <>
+    <Wrap>
+    <Container>
+      <AiOutlineGithub size={200} color="#3a3a3a"/>
+      <form>
+        <input name="email" type="email" placeholder="Your Email" />
+        <input name="password" type="password" placeholder="Your Password" />
 
-    <Link to="/">
-    <FiChevronLeft size={20}/>
-      Back
-    </Link>
-  </Header>
-
-  </>
+        <button type="submit">Submit</button>
+        <Link to="/signUp">Create Account</Link>
+      </form>
+      </Container>
+      </Wrap>
+    </>
   );
 };
 
 
-export default Repository;
+export default SignIn;

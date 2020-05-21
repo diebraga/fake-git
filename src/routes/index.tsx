@@ -7,7 +7,7 @@ import SignIn from '../_signin';
 export const Routes: React.FC = () => (
   <Switch>
       <Route path="/" exact component={SignIn} />
-      <Route path="/signin" component={Dashboard} />
+      <Route path="/dashboard" component={Dashboard} />
 
 </Switch>
 
