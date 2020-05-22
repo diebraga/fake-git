@@ -12,7 +12,7 @@ export const SignUp: React.FC = () => (
     <Container>
       <AiOutlineGithub size={200} color="#3a3a3a"/>
       <form>
-      <FormControl placeholder="First and last bame" />
+      <FormControl placeholder="First and last name" />
         <FormControl name="email" type="email" placeholder="Your Email" />
         <FormControl name="password" type="password" placeholder="Your Password" />
 

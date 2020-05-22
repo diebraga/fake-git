@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Navbar, Nav, Form, FormControl,
+  Navbar,
 } from 'react-bootstrap';
 import { WrapFooter } from './styles';
 

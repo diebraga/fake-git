@@ -16,10 +16,10 @@ const Dashboard: React.FC = () => (
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
-      <Nav.Link href="#features">Pull requests</Nav.Link>
-      <Nav.Link href="#pricing">Issues</Nav.Link>
-      <Nav.Link href="#deets">Market place</Nav.Link>
-      <Nav.Link href="#memes">
+      <Nav.Link href="/">Pull requests</Nav.Link>
+      <Nav.Link href="/">Issues</Nav.Link>
+      <Nav.Link href="/">Market place</Nav.Link>
+      <Nav.Link href="/">
         Explore
       </Nav.Link>
 
