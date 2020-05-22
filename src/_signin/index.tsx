@@ -6,8 +6,7 @@ import { FormControl } from 'react-bootstrap';
 import { Wrap, Container } from './styles';
 
 
-export const SignIn: React.FC = () => {
-  return (
+export const SignIn: React.FC = () => (
     <>
     <Wrap>
     <Container>
@@ -22,8 +21,7 @@ export const SignIn: React.FC = () => {
       </Container>
       </Wrap>
     </>
-  );
-};
+);
 
 
 export default SignIn;

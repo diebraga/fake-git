@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom';
 import { Wrap, Container } from './styles';
 
 
-export const SignUp: React.FC = () => {
-  return (
+export const SignUp: React.FC = () => (
     <>
     <Wrap>
     <Container>
@@ -23,8 +22,7 @@ export const SignUp: React.FC = () => {
       </Container>
       </Wrap>
     </>
-  );
-};
+);
 
 
 export default SignUp;
