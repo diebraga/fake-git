@@ -24,8 +24,10 @@ Fake-Git
 
 #### The project is Totally built in HTML and CSS, the app is static, so there is not JS fuctions but it can be implemented at any time.
 <br />
-### Structrure of Project
+### Structrure of Project:
+<br />
 
+<img src="assets/6.png" width="140" height="160" />
 
 
 
