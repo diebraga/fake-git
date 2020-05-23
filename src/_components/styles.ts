@@ -13,12 +13,11 @@ export const Wrap = styled.header`
 
 `;
 
-export const WrapFooter = styled.header`
-  align-items: center;
-  justify-content: space-between;
+export const WrapFooter = styled.footer`
   position: fixed;
     bottom: 0;
     width: 100%;
+    margin-top: 10px;
 
 
   a {
@@ -39,14 +38,17 @@ export const Div = styled.div`
   margin-right: 40px;
 `;
 
-export const RepositoriesInfo = styled.div`
-  margin-top: 40px;
-  max-width: 930px;
+export const RepositoriesInfo = styled.section`
+max-width: 960px;
+margin: 0 auto;
+padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   a {
     background: #fff;
     border-radius: 5px;
     width: 100%;
-    padding: 24px;
+    padding: 15px;
     display: block;
     text-decoration: none;
     align-items: center;
@@ -68,8 +70,7 @@ export const RepositoriesInfo = styled.div`
       border-radius: 50%;
     }
     div {
-      margin: 0 16px;
-      flex: 1;
+      margin-left: 20px;
       strong {
         font-size: 20px;
         color: #3D3D4D;

@@ -4,9 +4,13 @@ export const ProfileAndBody = styled.section`
 max-width: 960px;
 margin: 0 auto;
 
+a {
+  text-decoration: none;
+}
+
   ul {
     display: flex;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 50px;
     list-style: none;
 
@@ -27,7 +31,7 @@ margin: 0 auto;
 
     aside {
       margin-left: 24px;
-      margin-top: 10px;
+      margin-top: 0px;
     }
 
     strong {
@@ -45,6 +49,7 @@ margin: 0 auto;
     width: 200px;
     height: 200px;
     margin-left: 10px;
+    margin-bottom:-10%;
   }
 
 `;

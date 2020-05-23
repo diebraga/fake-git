@@ -1,16 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { FiChevronRight } from 'react-icons/fi';
 import { RepositoriesInfo } from './styles';
 
 const Repositories: React.FC = () => (
     <>
     <RepositoriesInfo>
-      <Link to="/dashboard">
+    <a href="https://github.com/diebraga/go-barber">
         <div>
-          <strong>aaaaaaa</strong>
-          <p>aaaaaaaaaaaaaa</p>
-        </div>
-      </Link>
+        <strong>go-barber</strong>
+         <p>Fullstack app Node/ React/ React Native</p>
+         </div>
+      <FiChevronRight size={20}/>
+    </a>
     </RepositoriesInfo>
   </>
 );

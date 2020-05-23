@@ -50,6 +50,12 @@ export const Container = styled.div`
       font-size: 16px;
       transition: background 0.2s;
 
+      a {
+        height: 44px;
+        margin: 5px 0 0;
+
+      }
+
       &:hover {
         background: ${darken(0.03, '#3b9eff')};
       }
