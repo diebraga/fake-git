@@ -3,7 +3,7 @@ import { AiOutlineGithub } from 'react-icons/ai';
 import {
   Navbar, Nav, Form, FormControl,
 } from 'react-bootstrap';
-import { Wrap } from './styles';
+import { Wrap, Div } from './styles';
 
 const Dashboard: React.FC = () => (
     <>
@@ -13,7 +13,7 @@ const Dashboard: React.FC = () => (
       <Form>
       <FormControl placeholder="Search or jump to..." />
       </Form>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Div> <Navbar.Toggle aria-controls="responsive-navbar-nav" /></Div>
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link href="/">Pull requests</Nav.Link>
