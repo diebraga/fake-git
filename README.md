@@ -15,9 +15,17 @@ Fake-Git
 
 <hr />
 
-## Project
+## The Project 📙
 ### The project consists in 3 pages: 
-SignIn path="/" <br/>SignUp path="/signup" <br/>Dashboard path="/dashboard".
+<strong>SignIn path="/" <br/>SignUp path="/signup" <br/>Dashboard path="/dashboard". <strong/>
+<br/><hr />
+<p align="center"><img src="assets/3.png" width="220" height="300" />&nbsp;&nbsp;  <img src="assets/4.png" width="220" height="300" />&nbsp;&nbsp;  <img src="assets/5.png" width="220" height="300" /><p/>
+<br/><hr />
+
+#### The project is Totally built in HTML and CSS, the app is static, so there is not JS fuctions but it can be implemented at any time.
+<br />
+### Structrure of Project
+
 
 
 
