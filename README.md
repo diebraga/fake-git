@@ -67,3 +67,18 @@ The App has no validation, so you can go freely in the routes and links once run
 <h5>When your code is getting big, it gets hard to review <br/> So separeting the code in components is better to maintain <br/>and keep the code clean and organised<h5>
   
 ## Get Started.
+
+<h4>Required*<h4/>
+  <h5>* Npm or Yarn<h5/>
+    <ul>
+      <li>`$ git clone` This project in your local repository. 
+      <li>`$ cd` The project in your editor.
+      <li>Run `$ npm instal` or `$ yarn` in your terminal.
+      <li>Run `$ npm instal` or `$ yarn`
+      <li>Done. the project is running on your localhost.
+    <ul/>
+        
+        
+        ## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details. .❤❤❤
