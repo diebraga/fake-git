@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/frontend_milestone_project/static/js/main.9ac0b579.chunk.js",
+    "main.js.map": "/frontend_milestone_project/static/js/main.9ac0b579.chunk.js.map",
+    "runtime-main.js": "/frontend_milestone_project/static/js/runtime-main.b48c21f6.js",
+    "runtime-main.js.map": "/frontend_milestone_project/static/js/runtime-main.b48c21f6.js.map",
+    "static/js/2.7f2a5f9e.chunk.js": "/frontend_milestone_project/static/js/2.7f2a5f9e.chunk.js",
+    "static/js/2.7f2a5f9e.chunk.js.map": "/frontend_milestone_project/static/js/2.7f2a5f9e.chunk.js.map",
+    "index.html": "/frontend_milestone_project/index.html",
+    "precache-manifest.87cc343b9f1cef20275c76a843051687.js": "/frontend_milestone_project/precache-manifest.87cc343b9f1cef20275c76a843051687.js",
+    "service-worker.js": "/frontend_milestone_project/service-worker.js",
+    "static/js/2.7f2a5f9e.chunk.js.LICENSE.txt": "/frontend_milestone_project/static/js/2.7f2a5f9e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b48c21f6.js",
+    "static/js/2.7f2a5f9e.chunk.js",
+    "static/js/main.9ac0b579.chunk.js"
+  ]
+}
